@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+
+header{
+    height: 300px;
+    width: 100%;
+    background-image: url("./images/max-griss-I90KYtZDi54-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.main{
+    font-family:'Segoe UI';
+}
+
+figcaption {
+    font-weight: bold;
+    text-align: center;
+  }
+
+.thumbnails{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figure{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+figcaption{
+    bottom: 0px;
+    margin-bottom: 0px;
+}
+
+figure img{
+    border-radius: 10px 10px 0px 0px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
